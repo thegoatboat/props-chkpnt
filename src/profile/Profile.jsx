@@ -7,7 +7,6 @@ const Profile = (props) => {
   return (
     <div className="cardP">
     <Card style={{ width: "18rem" }}>
-      <Card.Img className="photo" variant="top" src="https://i.pinimg.com/originals/20/60/4d/20604d135e8cc98bd168614250c09b17.png" weight="100px" />
       <Card.Body>
         <Card.Title>{props.name}</Card.Title>
         <Card.Text>{props.bio}</Card.Text>
